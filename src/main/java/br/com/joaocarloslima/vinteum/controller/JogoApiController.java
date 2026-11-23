@@ -3,17 +3,12 @@ package br.com.joaocarloslima.vinteum.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.joaocarloslima.vinteum.model.*;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import br.com.joaocarloslima.vinteum.model.Arriscada;
-import br.com.joaocarloslima.vinteum.model.Cautelosa;
-import br.com.joaocarloslima.vinteum.model.EstiloDeJogo;
-import br.com.joaocarloslima.vinteum.model.Jogo;
-import br.com.joaocarloslima.vinteum.model.Padrao;
 
 // a tela 3D conversa com o Jogo por aqui (não precisa mexer)
 @RestController
